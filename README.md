@@ -22,14 +22,15 @@ The silhouette is sent via Syphon as a dynamic mask to be used in videomapping s
 ## Installation
 To run the Jupyter Notebook and the associated projects, ensure you have the required Python libraries:
 ```
-pip install mediapipe opencv numpy pyosc glfw
+pip install ultralytics mediapipe opencv-python python-osc syphonpy PyOpenGL glfw
 ```
 
 - mediapipe: For body recognition and segmentation.
-- opencv-python-headless: For image processing and video capture.
-- numpy: For numerical operations.
-- pyosc: To send OSC messages to Processing4.
-- glfw: For managing Syphon server visuals.
+- opencv-python: For image processing and video capture.
+- python-osc: To send OSC messages to Processing4.
+- syphonpy: For sending and receiving video streams via Syphon to external applications like MadMapper.
+- PyOpenGL: For rendering graphics and working with OpenGL in Python.
+- glfw: For managing OpenGL contexts, windows, and events for rendering visuals. For managing Syphon server visuals.
 
 ## Usage
 
@@ -57,6 +58,7 @@ pip install mediapipe opencv numpy pyosc glfw
 
 ## Repository Structure
 
+```
 .
 ├── processing4/                       # Folder containing Processing4 sketches for visualization
 │   └── (Processing4 sketches here)
@@ -68,6 +70,7 @@ pip install mediapipe opencv numpy pyosc glfw
 ├── server-syphon-example.ipynb        # Example notebook for setting up a Syphon server
 ├── yolo-osc.ipynb                     # Notebook for YOLO-based body tracking with OSC
 ├── yolo11n-pose.pt                    # YOLO model for body tracking
+```
 
 ## Notes
 System Requirements: This project requires a system with a webcam for live video feed and a MacOS support for Syphon for the segmentation approach.
