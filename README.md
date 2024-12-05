@@ -83,3 +83,5 @@ Recommended Hardware: For optimal performance, use a system with a dedicated GPU
 This repository was created by Lina Lopes in December 2024. The project investigates how machine learning models can enable creative and dynamic uses of body recognition in artistic environments.
 
 For more projects and inquiries, visit [Lina Lopes on GitHub](https://github.com/LinaLopes).
+
+Happy Coding!
