@@ -32,6 +32,9 @@ pip install ultralytics mediapipe opencv-python python-osc syphonpy PyOpenGL glf
 - PyOpenGL: For rendering graphics and working with OpenGL in Python.
 - glfw: For managing OpenGL contexts, windows, and events for rendering visuals. For managing Syphon server visuals.
 
+Processing 4 needs oscP5 and Syphon libraries.
+- To run Syphon in Processing 4, you need the Processing 4 for Intel (x64) based instead of Apple Silicon.
+
 ## Usage
 
 1. MediaPipe Keypoints with OSC
